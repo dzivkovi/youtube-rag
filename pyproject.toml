@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Borna Almasi <borna@borna-almasi.com>"]
 readme = "README.md"
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10.12,<3.13"
@@ -32,7 +33,7 @@ priority = "primary"
 
 [[tool.poetry.source]]
 name = "PyPI"
-priority = "default"
+priority = "primary"
 
 [build-system]
 requires = ["poetry-core"]
