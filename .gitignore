@@ -1,5 +1,9 @@
 .env
 **/__pycache__
 .venv/
+.vscode/
+
 # Python ignore
 
+# Vector database
+tmp_*/
